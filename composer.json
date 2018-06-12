@@ -1,0 +1,24 @@
+{
+    "name": "azcoppen/streetview-publish",
+    "description": "Publishes 360 Panoramic Images via Google Street View API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Coppen",
+            "email": "azcoppen@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^7.1.3",
+      "monolog/monolog": "~1.12",
+      "nesbot/carbon": "1.25.*",
+      "guzzlehttp/guzzle" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Streetview\\": "src/Streetview/"
+        }
+    },
+}
